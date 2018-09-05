@@ -1,0 +1,136 @@
+/* Generelt */
+
+body {
+    font-family: "Courier New";
+    background-color: #d2d2d2;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+
+}
+
+/* Heading */
+
+#video {
+    position: relative;
+}
+
+#koncertVideo {
+    width: 100%;
+}
+
+#heading {
+    font-size: 30px;
+    position: absolute;
+    color: #d2d2d2;
+    bottom: -55px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+h2 {
+    font-size: 33px;
+    text-align: center;
+    margin-top: -5px;
+    color: black;
+
+}
+
+/* Overskrift styling */
+
+h3 {
+    font-size: 25px;
+    margin: 5%;
+}
+
+.graa-blok {
+    background-color: #7e7c7d;
+    width: 65%;
+    height: 25px;
+    z-index: -1;
+    position: relative;
+    top: -31px;
+    margin-left: 30%;
+}
+
+.overskrift {
+    margin-bottom: -30px;
+    padding-top: 15px;
+}
+
+/* content*/
+
+#introVideo {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    position: relative;
+}
+
+.article-2-white {
+    
+}
+
+/*PC*/
+
+@media (min-width:1025px) {
+    p {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* heading */
+
+    #heading {
+        font-size: 69px;
+        margin-bottom: -80px;
+        margin-left: 20%;
+        margin-right: 20%;
+        
+    }
+
+    h2 {
+        font-size: 78px;
+    }
+
+    /* Overskrift */
+
+    h3 {
+        font-size: 45px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .graa-blok {
+        width: 50%;
+        height: 40px;
+        position: relative;
+        top: -85px;
+    }
+
+    .overskrift {
+        margin-bottom: -70px;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    
+    /* content */
+    
+    #introVideo {
+    width: 80%;
+    margin-left: 10%;
+}
+}
+
+@media (min-width:1720px) {}
